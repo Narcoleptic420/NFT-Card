@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        
+      }
+      main {
+        background-color: #15263f;
+        padding: 24px;
+        border-radius: 15px;
+      
+        width: 350px;
+        height: 596px;
+     
+      }
+
+      .img-box img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+
+      h1 {
+        color: white;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+              }
+
+      p {
+        color: #8bacd9;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+      }
+      a {
+        color: #00fff8;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .icons {
+        display: flex;
+        justify-content: space-between;
+      }
+      .middleicons {
+        text-align: left;
+      }
+      .middleicons2 {
+        text-align: right;
+      }
+      .line {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        border: 1px solid #2e405a;
+      }
+      
+      .qvedasurati img
+      {
+        height: 33px;
+        border: 1px solid  white;
+        border-radius: 16px;
+      
+      }
+      .shemqmneli{
+
+        margin-left: 20px;
+
+
+
+      }
+      .shemqmneli a{
+        color: white;
+      }
+      .qveda {
+
+        display: flex;
+      
+      }
+
+      
+.card-container:hover  .eye-img{
+    display: visible;
+    
+}
+
+.card-container:hover .overlay {
+    visibility: block;
+}
+
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    top: 25px;
+    right: 23px;
+    width: 350px;
+    height: 349px;
+    background: #00FFF8;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+
+.eye-img {
+    position: absolute;
+    top: 170px;
+    left: 176px;
+    display: none;
+}
+
+    </style>
+
+    <title>NFT Project</title>
+  </head>
+  <body>
+    <main>
+      <div class="nft">
+        <div class="img-box">
+          <img src="images/image-equilibrium.jpg" alt="nft" />
+          <div class="overlay"></div>
+      <div class="eye-icon"><img class="eye-img" src="./images/icon-view.svg" alt="view-icon"></div>
+        </div>
+
+        <div class="main-text-box">
+          <h1>Equilibrium #3429</h1>
+        </div>
+
+        <div class="second-text-box">
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <div class="icons">
+          <div class="middleicons">
+            <img src="images/icon-ethereum.svg" alt="eth" />
+            <a>0.041 ETH</a>
+          </div>
+
+          <div class="middleicons2">
+            <img src="images/icon-clock.svg" alt="eth" />
+            <a>3 days left</a>
+          </div>
+        </div>
+        <div class="line"></div>
+        
+        <div class="qveda">
+          <div class="qvedasurati">
+              <img src="images/image-avatar.png" alt="avatar" />
+          </div>
+          <p class="shemqmneli">Creation of 
+              <a>Jules Wyvern</a></p>
+
+
+      </div>
+    </main>
+  </body>
+</html>
